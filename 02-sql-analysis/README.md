@@ -1,6 +1,6 @@
 # SQL Analysis of Superstore Dataset
 
-This project demonstrates SQL skills by querying the Superstore dataset to extract business insights, tailored for a Trainee Analyst role at MathCo.
+This project demonstrates SQL skills by querying the Superstore dataset to extract business insights.
 
 ## Objective
 Analyze sales, customer behavior, and product profitability using SQLite and Python (sqlite3, Pandas).
