@@ -9,6 +9,28 @@
 
 Welcome to my data analytics portfolio! This repository showcases my journey as an aspiring data analyst, featuring comprehensive projects that demonstrate proficiency in data manipulation, statistical analysis, and business intelligence. Each project utilizes the **Superstore dataset** - a rich retail dataset containing sales transactions, customer information, and product details that provides realistic business scenarios for analysis.
 
+## 📊 Dataset Information
+
+This portfolio utilizes the **Superstore Sales Dataset** from Kaggle, which provides a comprehensive retail dataset spanning 4 years of global superstore operations. The dataset is ideal for time series analysis, sales forecasting, and business intelligence applications.
+
+**Dataset Source**: [Superstore Sales Dataset by Rohit Sahoo](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)  
+**License**: GPL 2  
+**Last Updated**: 5 years ago  
+
+### Dataset Access
+```python
+import kagglehub
+# Download latest version
+path = kagglehub.dataset_download("rohitsahoo/sales-forecasting")
+print("Path to dataset files:", path)
+```
+
+**Dataset Characteristics**:
+- **Time Range**: 4 years of retail data
+- **Use Cases**: EDA, sales forecasting, time series analysis
+- **Content**: Non-stationary retail sales data perfect for predictive modeling
+- **Inspiration**: Predict sales for the next 7 days from the last training date
+
 ## 🛠️ Technical Skills Demonstrated
 
 - **Programming Languages**: Python, SQL
@@ -92,27 +114,37 @@ Welcome to my data analytics portfolio! This repository showcases my journey as 
 ```
 data-analytics-portfolio/
 ├── 01-exploratory-data-analysis/
-│   ├── notebooks/
-│   ├── visualizations/
-│   └── reports/
+│   ├── README.md
+│   └── superstore_eda_notebook.ipynb
 ├── 02-sql-analysis/
-│   ├── queries/
-│   ├── database/
-│   └── results/
+│   ├── README.md
+│   ├── profit_margin_by_category.csv
+│   ├── sales_by_region.csv
+│   ├── sql_superstore.ipynb
+│   ├── superstore.db
+│   ├── superstore_sql_analysis.sql
+│   └── top_sub-categories.csv
 ├── 03-predictive-modeling/
-│   ├── models/
-│   ├── evaluation/
-│   └── predictions/
+│   ├── README.md
+│   └── predictive_model.ipynb
 ├── 04-business-case-study/
-│   ├── analysis/
-│   ├── recommendations/
-│   └── presentation/
+│   ├── README.md
+│   ├── case_study_report.pdf
+│   ├── category_analysis.csv
+│   ├── inventory_analysis.ipynb
+│   ├── sales_by_category.png
+│   ├── sales_by_subcategory.png
+│   └── subcategory_analysis.csv
 ├── 05-interactive-dashboard/
-│   ├── app/
-│   ├── assets/
-│   └── deployment/
+│   ├── README.md
+│   ├── dashboard.py
+│   ├── dashboard_screenshot.png
+│   ├── sales_by_category.csv
+│   ├── sales_by_region.csv
+│   └── sales_by_segment.csv
 ├── data/
-│   └── superstore_dataset.csv
+│   └── superstore.csv
+├── .gitignore
 └── README.md
 ```
 
@@ -134,9 +166,9 @@ data-analytics-portfolio/
 
 ## 📞 Contact Information
 
-- **Email**: [your.email@example.com]
+- **Email**: [theakashkumar2211@gmail.com]
 - **LinkedIn**: [linkedin.com/in/akashkumarpr]
-- **GitHub**: [github.com/akashkumarpr]
+- **GitHub**: [github.com/theakashkumar22]
 
 ---
 
