@@ -1,5 +1,5 @@
 # Data Analytics Portfolio
-Hi, I'm Akash kumar P R, an aspiring Data Analyst. This portfolio showcases projects demonstrating my skills in Python, SQL, and data visualization, tailored for a Trainee Analyst role at MathCo.
+Hi, I'm Akash kumar P R, an aspiring Data Analyst. This portfolio showcases projects demonstrating my skills in Python, SQL, and data visualization.
 
 ## Projects
 1. **Exploratory Data Analysis**: Analyzed Superstore dataset to uncover sales trends (Python, Pandas, Seaborn).
