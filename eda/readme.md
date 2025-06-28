@@ -48,6 +48,9 @@ cd <repository-directory>
 jupyter notebook
 ```
 
+📘 [View the Notebook](./superstore_eda_notebook.ipynb)  
+📂 [Download the Dataset](./superstore_data.csv)
+
 Open the notebook and run the cells sequentially to perform the analysis.
 
 ---
@@ -113,7 +116,3 @@ Open the notebook and run the cells sequentially to perform the analysis.
 
 **Akash Kumar P R**  
 📅 *June 2025*
-
-📘 [View the Notebook](./superstore_eda_notebook.ipynb)  
-📂 [Download the Dataset](./superstore_data.csv)
-
