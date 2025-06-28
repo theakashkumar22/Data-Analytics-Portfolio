@@ -1,6 +1,6 @@
 # Superstore Inventory Optimization Case Study
 
-This project analyzes the Superstore dataset to optimize inventory, tailored for a Trainee Analyst role at MathCo.
+This project analyzes the Superstore dataset to optimize inventory.
 
 ## Objective
 Identify high- and low-performing product categories/sub-categories to recommend inventory adjustments using Python and LaTeX.
